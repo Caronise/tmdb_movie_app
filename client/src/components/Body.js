@@ -1,19 +1,27 @@
 import React from 'react';
-import {
-  Container,
-  Row,
-  Col
-} from 'react-bootstrap';
 
 export default function Body() {
 
   return (
-    <Container>
-      <Row>
-        <Col className="left" xs={8}>1 of 2 (wider)</Col>
-        <Col className="right">2 of 2</Col>
-      </Row>
-    </Container>
+    <React.Fragment>
+    <div id="movie-container">
+      <div id="picture-area">IMAGE GOES HERE</div>
+      <div id="info-area">
+        <span>Title</span>
+        <br/>
+        <span>Tagline</span>
+        <br/>
+        <span>Description</span>
+        <br/>
+        <span>Categories</span>
+        <br/>
+        <span>Producers</span>
+        <br/>
+        <span>Release Info</span>
+      </div>
+    </div>
+
+    </React.Fragment>
 
   );
 };

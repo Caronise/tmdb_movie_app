@@ -1,19 +1,19 @@
 import React from 'react';
-import {
-  Container,
-  Row,
-  Col
-} from 'react-bootstrap';
 
 export default function Header() {
 
   return (
-    <Container>
-      <Row>
-        <Col className="logo-area">1 of 2</Col>
-        <Col className="search-area">2 of 2</Col>
-      </Row>
-    </Container>
+    <React.Fragment>
+      <div id="search-container">
+        <div id="logo-area">
+            <img src={require("../images/PrimaryLogo_Green.png")} alt="The Movide DB logo" height="80px" width="100px"></img>
+        </div>
+        <div id="search-area">
+            <input type="textarea"></input>
+        </div>
+      </div>
+
+    </React.Fragment>
 
   );
 }

@@ -1,4 +1,38 @@
-.left {
-  border: 2px solid red;
-  background-color: red;
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search-container {
+  flex-direction: row;
+}
+
+#logo-area {
+  border: 1px solid red;
+  width: 300px;
+}
+
+#search-area {
+  border: 1px solid black;
+  width: 300px;
+}
+
+#movie-container {
+
+}
+
+#picture-area {
+  border: 1px solid blue;
+  height: 25em;
+}
+
+#info-area {
+  border: 1px solid green;
 }

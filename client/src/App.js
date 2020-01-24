@@ -7,16 +7,11 @@ import Body from './components/Body';
 export default function App() {
   return (
     <body>
+      <div id="main-container">
+        <Header />
 
-      <div className="head">
-        <Header></Header>
+        <Body />
       </div>
-
-      <div className="body">
-        <Body></Body>
-      </div>
-
-
     </body>
   );
 }
